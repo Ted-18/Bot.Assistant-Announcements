@@ -25,7 +25,7 @@ class Announcements(commands.Cog):
 
 
     # INIT GROUP COMMAND
-    groupAnnouncements = discordCommands.SlashCommandGroup(init.cogName, "Various commands to manage announcements")
+    groupAnnouncements = discordCommands.SlashCommandGroup(init.cogName, "🔶 Group of commands for the Announcements addon.")
 
 
     # Verify if the bot has the prerequisites permissions
