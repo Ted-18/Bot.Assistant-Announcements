@@ -2,7 +2,7 @@
 enableGithub = True
 author = "Ted-18"
 repository = "Bot.Assistant-Announcements"
-version = "1.0.2"
+version = "1.0.3"
 
 # To activate this addon
 cogEnabled = True
