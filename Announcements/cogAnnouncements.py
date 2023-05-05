@@ -5,7 +5,7 @@ import addons.Announcements.functions.commands.commandSend as commandSend
 import addons.Announcements.functions.commands.commandRequirements as commandRequirements
 
 # BOTASSISTANT IMPORTS
-from services.serviceLogger import consoleLogger as Logger
+from services.serviceLogger import Logger
 from services.serviceDiscordLogger import discordLogger as DiscordLogger
 from settings.settingBot import debug
 
@@ -49,5 +49,5 @@ class Announcements(commands.Cog):
         
 # INIT COG
 def setup(bot):
-    if debug: Logger.debug("Loading cog: " + init.cogName)
+    Logger.debug("Loading cog: " + init.cogName)
     bot.add_cog(Announcements(bot))
